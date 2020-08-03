@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-      Today
+      Mouth
   </div>
 </template>
 
@@ -10,7 +10,7 @@ import {useStore} from 'vuex'
 import getData from '../services';
 
 export default {
-  name: 'todayPage',
+  name: 'mouthPage',
   setup() {
     const store = useStore();
     onMounted(()=>{
